@@ -4,6 +4,14 @@
   "framework": null,
   "rewrites": [
     {
+      "source": "/diary/:date",
+      "destination": "/diary/:date.html"
+    },
+    {
+      "source": "/log/:date",
+      "destination": "/log/:date.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/$1"
     }
